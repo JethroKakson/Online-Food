@@ -49,10 +49,10 @@
 						else
 							{
 									
-                echo '<li class="nav-item"> <a class="nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a> </li>
-                <li class="nav-item"> <a class="nav-link active" href="Categories.php">Categories <span class="sr-only"></span></a> </li>';
-										echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">My Orders</a> </li>';
-									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Logout</a> </li>';
+                // echo '<li class="nav-item"> <a class="nav-link active" href="home.php">Home <span class="sr-only">(current)</span></a> </li>
+                // <li class="nav-item"> <a class="nav-link active" href="Categories.php">Categories <span class="sr-only"></span></a> </li>';
+				// 						echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">My Orders</a> </li>';
+				// 					echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Logout</a> </li>';
 							}
 
 						?>
@@ -108,7 +108,7 @@ if(isset($_POST['submit']))
 	  <span style="color:red;"><?php echo $message; ?></span> 
    <span style="color:green;"><?php echo $success; ?></span>
     <form action="" method="post">
-      <input type="text" placeholder="Username"  name="username"/>
+      <input type="text" placeholder="Table"  name="username"/>
       <input type="password" placeholder="Password" name="password"/>
       <input type="submit" id="buttn" name="submit" value="Login" />
     </form>

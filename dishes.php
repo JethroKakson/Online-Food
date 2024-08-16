@@ -102,7 +102,7 @@ include_once 'product-action.php';
             </div>
             <div class="container m-t-30">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8" style="width: 100%;">
                       
              
                         <div class="menu-widget" id="2">
@@ -259,7 +259,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                     <div class="row bottom-footer">
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-3 payment-options color-gray">
+                                <!-- <div class="col-xs-12 col-sm-3 payment-options color-gray">
                                     <h5>Payment Options</h5>
                                     <ul>
                                         <li>
@@ -278,7 +278,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                                             <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> -->
                                 <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
                                     <p>1086 Stockert Hollow Road, Seattle</p>
